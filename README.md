@@ -1,8 +1,18 @@
 ## setup node project
-npm init es6 -y && npm install langchain openai dotenv @types/node typescript ts-node
+1. install dependencies
+```npm init es6 -y && npm install langchain openai dotenv @types/node
+```
+2. setup node project
+```
+``` 
+typescript ts-node 
+```
+```
 npx tsc --init --rootDir src --outDir ./dist --esModuleInterop --lib ES2020 --target ES2020 --module nodenext --noImplicitAny true
+```
 
-### add to package.json
+3. Update Package.json
+
 ```
   "scripts": { 
       "build": "tsc", 
@@ -10,13 +20,18 @@ npx tsc --init --rootDir src --outDir ./dist --esModuleInterop --lib ES2020 --ta
       "dev": "ts-node --esm ./src/app.ts"
   },
   ```
-### Create an app.ts source file in the src folder. Add code to it to display a test string.
+
+4. Create app.ts in the src folder.
+```
 mkdir src 
 echo "console.log('Welcome to the LangChain.js tutorial by LangChainers.')" > src/app.ts
+```
 
-### boot up 
+5. boot up 
+```
 npm run build
 npm run start
+```
 
 ## blog post tutorial https://langchainers.hashnode.dev/getting-started-with-langchainjs
 
