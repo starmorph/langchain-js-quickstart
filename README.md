@@ -1,12 +1,15 @@
-## setup node project
+## Get Started with Langchain JS 
+a basic node.js template to run langchain.js
+`app.ts` uses langchain with OpenAI to generate a code snippet, format the response, and save the output (a complete react component) to a file.
+
 1. install dependencies
 ```npm init es6 -y && npm install langchain openai dotenv @types/node
 ```
 2. setup node project
 ```
-``` 
 typescript ts-node 
 ```
+
 ```
 npx tsc --init --rootDir src --outDir ./dist --esModuleInterop --lib ES2020 --target ES2020 --module nodenext --noImplicitAny true
 ```
