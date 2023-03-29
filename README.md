@@ -54,5 +54,5 @@ npm run build
 npm run start
 ```
 
-[blog post tutorial](https://langchainers.hashnode.dev/getting-started-with-langchainjs)
+I followed this [Blog post tutorial](https://langchainers.hashnode.dev/getting-started-with-langchainjs) to setup the initial node environment.
 
