@@ -1,7 +1,22 @@
 ## Get Started with Langchain JS 
 a basic node.js template to run langchain.js
 
+## How to use this template
+
+All you need to do is add your OpenAI API key to the `.env` file and run the app.
+
+```
+npm install && npm run dev 
+```
+
+After that, you can edit the `app.ts` file to change the prompt.
+
+
 `app.ts` uses langchain with OpenAI to generate a code snippet, format the response, and save the output (a complete react component) to a file.
+
+
+
+## How this template was built 
 
 1. install dependencies
 
