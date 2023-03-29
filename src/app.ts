@@ -1,13 +1,13 @@
 import { OpenAI, PromptTemplate } from "langchain";
 import { StructuredOutputParser } from "langchain/output_parsers";
 import fs from 'fs';
+import { ChatOpenAI } from "langchain/chat_models";
+import { HumanChatMessage, SystemChatMessage } from "langchain/schema";
 
 //Load environment variables (populate process.env from .env file)
 import * as dotenv from "dotenv";
 dotenv.config();
 
-import { ChatOpenAI } from "langchain/chat_models";
-import { HumanChatMessage, SystemChatMessage } from "langchain/schema";
 
 const chat = new ChatOpenAI({ temperature: 0 });
 

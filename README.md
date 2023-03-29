@@ -3,8 +3,10 @@ a basic node.js template to run langchain.js
 
 ## How to use this template
 
-All you need to do is add your OpenAI API key to the `.env` file and run the app.
+All you need to do is 
+1. add your OpenAI API key to the `.env` file and 
 
+2. run the app with the following command
 ```
 npm install && npm run dev 
 ```
